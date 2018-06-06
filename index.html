@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Payment-form</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+</head>
+<body>
+	<form action="" class="form" method="post">
+		<div class="form_head">
+			<div class="form__title">Harold Finch
+				<div class="form__caption">your total</div>
+				
+			</div>
+			<div class="form__price">$88</div>
+			
+		</div>
+		<div class="form_body">
+			<div class="body_text">Credit card number</div>
+			<input type="text" maxlength="16" class="input_field card_num">
+<div class="body_text">Expiration date</div>
+			<fieldset class="ex_date">
+				
+				<select name="month" id="month" class="input_field month">
+					<option value="Month">Month</option>
+					<option value="January">January</option>
+					<option value="February">February</option>
+					<option value="March">March</option>
+					<option value="April">April</option>
+					<option value="May">May</option>
+					<option value="June">June</option>
+					<option value="July">July</option>
+					<option value="August">August</option>
+					<option value="September">September</option>
+					<option value="October">October</option>
+					<option value="November">November</option>
+					<option value="December">December</option>
+				</select>
+				<select name="year" id="year" class="input_field year">
+					<option value="Year">Year</option>
+					<option value="2018">2018</option>
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+				</select>
+
+
+				
+				
+			</fieldset>
+			<div class="body_text">CVV</div>
+			<input type="text" maxlength="4" class="input_field cvv">
+			<span class="body_text--sm">3 or 4 digits - <a href="#">view example</a></span>
+			<div class="line"></div>
+			<button type="submite" class="btn">Pay</button>
+			<div>
+				<a href="#" class="cancel">Cancel order</a>
+			</div>
+
+		</div>
+		
+	</form>
+
+
+	
+</body>
+</html>
