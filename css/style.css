@@ -172,6 +172,22 @@ option,select,input {
 
 color: #727f82;
 }
+select {
+
+	/*for WebKit*/
+ -webkit-appearance: none;
+ /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  background-image: url('../img/arrow.png');
+background-position: right 8px center;
+background-repeat: no-repeat;
+
+}
 select:hover,
 input:hover {
 	background-color: #efe4aa;
